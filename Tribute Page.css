@@ -1,11 +1,26 @@
+html {
+    background: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(82, 187, 170);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+}
+
 body {
-    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333333
 }
 
 #main {
-    background-color: #eee;
-    /* border-radius: 10px; */
-    margin: 30px 8px;
+    background-color: rgb(82, 187, 170);
     padding: 15px;
 }
 
@@ -19,13 +34,14 @@ body {
 
 #p-title {
     text-align: center;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 
 #img-div {
-    background-color: white;
+    background-color: rgb(82, 187, 170);
     padding: 10px;
     margin: 0px;
+    border-radius: 5px;
 }
 
 #image {
@@ -33,12 +49,11 @@ body {
     max-width: 100%;
     height: auto;   
     border-radius: 5px;
-    margin: auto;
 }
 
 #img-caption {
     text-align: center;
-    color: #333;
+    color: #333333;
     padding-top: 10px;
     margin-bottom: 10px;
 }
@@ -48,7 +63,7 @@ body {
 }
 
 #tribute-info ul {
-    max-width: 550px;
+    max-width: 700px;
     margin: 0px auto 50px auto;
     text-align: left;
     line-height: 1.6;
@@ -62,42 +77,19 @@ li {
     margin: 16px 0;
 }
 
-#tribute-info p {
-    color: #333;
-}
-
-cite {
-    color: #333;
-}
-
-a {
-    color: #2c7db0;
-}
-
-a:visited {
-    color: #761c76;
-}
-
 #tribute-info div {
     max-width: 550px;
     margin: 0px auto 50px auto;
     text-align: left;
     font-style: italic;
     line-height: 1.6;
-
 }
 
 #more-info {
-    color: #333;
+    color: #333333;
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
+#more-info a {
+    color: rgb(119, 10, 10);
+}
